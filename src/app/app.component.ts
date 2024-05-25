@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, LoginComponent,RouterLinkActive,CommonModule]
+    imports: [RouterOutlet,RouterLinkActive,CommonModule]
 })
 export class AppComponent {
   title = 'Proprysell';
